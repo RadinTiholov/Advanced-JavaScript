@@ -5,8 +5,7 @@ function solve() {
 
    checkoutButton.addEventListener('click', checkOut);
    let price = 0;
-   let list = [];
-   buttons.forEach(button => {
+   let list = [];   buttons.forEach(button => {
       button.addEventListener('click', onClick);
    });
 

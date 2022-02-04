@@ -2,7 +2,8 @@ function solve() {
    document.querySelector('#btnSend').addEventListener('click', onClick);
 
    function onClick () {
-      //   TODO:
-      
+      const input = document.querySelector('textarea').value;
+      let arr = input.split($`/"[|]"|"," /`);
+      console.log(arr);
    }
 }
